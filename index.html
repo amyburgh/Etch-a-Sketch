@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="js" href="play.js" defer>
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 
 <body>
@@ -23,19 +24,20 @@
                 <input type="range" min="1" max="100" class="slider">
             </div>
             <div class="color-picker">
-                <input type="color" class="color" name="color" value="#fff">
-                <label for="color">COLOR</label>
+                <input type="color" class="color" name="color" value="#000000">
             </div>
-            <button class="clear">CLEAR</button>
+            <button type="clear" class="clear">CLEAR</button>
         </div>
     </div>
     <footer>
-        <div>Copyright &#169; amyburgh</div>
         <div class="Github-link">
-            <a href="https://github.com/amyburgh/Rock-Paper_Scissors"><img id="Github-logo" rel="Github logo"
+            <a href="https://github.com/amyburgh/Etch-a-Sketch"><img id="Github-logo" rel="Github logo"
                     src="./images/GitHub-Mark-Light-32px.png"></a>
         </div>
+        <div>Copyright &#169; amyburgh</div>
     </footer>
+    <img class="banner-left" src="./images/left-floats.png" alt="Floating shapes">
+    <img class="banner-right" src="./images/right-floats.png" alt="Floating shapes">
     <div class="banner">
         <img class="banner-bottom" src="images/bottom.png" alt="Geometric rocks">
     </div>
