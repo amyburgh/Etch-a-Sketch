@@ -1,6 +1,3 @@
-// Colors
-const LIGHT_GREY = '#D3D3D3';
-const GREY = '#808080';
 const DEFAULT_SIZE = 24;
 
 const grid = document.querySelector('.grid');
